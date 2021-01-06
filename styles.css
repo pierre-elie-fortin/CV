@@ -351,6 +351,55 @@ svg circle:nth-child(2){
 
 }
 
+.jeux{
+margin: 10px;
+border-style: solid;
+border-color: #67b0d1;
+width: 500px;
+height: 300px;
+filter: brightness(150%);
+-webkit-filter: brightness(190%);  
+
+
+}
+.jeuxvideo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+@media (max-width: 1024px) {
+.jeux{
+width: 400px;
+height: 250px;
+}
+.jeuxvideo{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-flow: column wrap;
+
+
+}
+
+}
+@media (max-width: 1570px) {
+  .jeux{
+  width: 400px;
+  height: 250px;
+  }
+  .jeuxvideo{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-flow: column wrap;
+  
+  
+  }
+  
+  }
+
 .body{
 
 display: flex;
